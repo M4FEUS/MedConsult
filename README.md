@@ -10,18 +10,6 @@ Este projeto simula a criação de um sistema de gerenciamento para uma clínica
 
 - `model`: O diretório `model` é responsável pela lógica de dados da aplicação. Ele contém os seguintes subdiretórios:
 
-  - `DAO`: Contém os arquivos relacionados às classes de acesso a dados, responsáveis por interagir com o banco de dados. Alguns dos principais arquivos neste diretório são:
-
-    - `ConnectionFactory.java`: Classe que gerencia a conexão com o banco de dados.
-
-    - `ConsultaDAO.java`: Classe para interação com dados de consultas médicas.
-
-    - `FuncionarioDAO.java`: Classe para operações relacionadas a funcionários da clínica.
-
-    - `MedicoDAO.java`: Classe para operações relacionadas a médicos.
-
-    - `PacienteDAO.java`: Classe para operações relacionadas a pacientes.
-
   - `services`: Contém os arquivos relacionados aos serviços da aplicação, que podem incluir lógica de negócios e processamento de dados. Alguns dos principais arquivos neste diretório são:
 
     - `ConsultaServices.java`: Classe que fornece serviços relacionados a consultas médicas.
@@ -91,13 +79,13 @@ Este projeto simula a criação de um sistema de gerenciamento para uma clínica
 1. Clone este repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/leonardofgirotto/MedConsult.git
+   git clone https://github.com/M4FEUS/MedConsult.git
 
 2. Configure um ambiente de servidor web local e um banco de dados, se necessário.
 
-3. Importe os scripts SQL fornecidos (se aplicável) para criar a estrutura do banco de dados.
+3. Importe os scripts SQL fornecidos para criar a estrutura do banco de dados.
 
-4. Execute o aplicativo em seu navegador.
+4. Execute o aplicativo em seu computador.
 
 
 
